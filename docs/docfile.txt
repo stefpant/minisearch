@@ -1,0 +1,71 @@
+0 The quick brown fox leaped over the lazy lazy dog
+1 Quick brown foxes leaped over lazy dogs for fun
+2 I am a programmer
+3 Something is right
+4 This is much much fun
+5 The blockchain is a public ledger that records bitcoin transactions
+6 A novel solution accomplishes this without any trusted central authority:
+7 the maintenance of the blockchain is performed by a network of communicating
+8 nodes running bitcoin software Transactions of the form payer X sends
+9 Y bitcoins to payee Z are broadcast to this network using readily available
+10 software applications Network nodes can validate transactions add them
+11 to their copy of the ledger and then broadcast these ledger additions to
+12 other nodes The blockchain is a distributed database – to achieve
+13 independent verification of the chain of ownership of any and every bitcoin
+14 amount each network node stores its own copy of the
+15 blockchain Approximately six times per hour a new group of accepted
+16 transactions a block is created added to the blockchain and quickly
+17 published to all nodes This allows bitcoin software to determine when a
+18 particular bitcoin amount has been spent which is necessary in order to
+19 prevent double-spending in an environment without central oversight Whereas a
+20 conventional ledger records the transfers of actual bills or promissory notes
+21 that exist apart from it the blockchain is the only place that bitcoins can
+22 be said to exist in the form of unspent outputs of transactions 5
+23 Transactions
+24 Number of bitcoin transactions per month (logarithmic scale)
+25 See also: Bitcoin network
+26 Transactions are defined using a Forth-like scripting language 5
+27 Transactions consist of one or more inputs and one or more outputs When a
+28 user sends bitcoins the user designates each address and the amount of bitcoin
+29 being sent to that address in an output To prevent double spending each input
+30 must refer to a previous unspent output in the blockchain The use of
+31 multiple inputs corresponds to the use of multiple coins in a cash
+32 transaction Since transactions can have multiple outputs users can send
+33 bitcoins to multiple recipients in one transaction As in a cash transaction
+34 the sum of inputs (coins used to pay)
+35 can exceed the intended sum of payments In such a case an additional output
+36 is used returning the change back to the payer Any input satoshis
+37 not accounted for in the transaction outputs become the transaction fee
+38 Transaction fees
+39 An actual bitcoin transaction including the fee from a webbased cryptocurrency
+40 exchange to a hardware wallet
+41 Paying a transaction fee is optional Miners can choose which transactions
+42 to process and they are incentivised to prioritize those that pay
+43 higher fees
+44 Because the size of mined blocks is capped by the network miners choose
+45 transactions based on the fee paid relative to their storage size not
+46 the absolute amount of money paid as a fee Thus fees are generally measured
+47 in satoshis per byte or sat/b The size of transactions is dependent on
+48 the number of inputs used to create the transaction and the number of
+49 outputs 8
+50 Ownership
+51 Simplified chain of ownership In reality a transaction can have more than
+52 one input and more than one output
+53 In the blockchain bitcoins are registered to bitcoin addresses Creating
+54 a bitcoin address is nothing more than picking a random valid private key
+55 and computing the corresponding bitcoin address This computation can be
+56 done in a split second But the reverse (computing the private key of a
+57 given bitcoin address) is mathematically unfeasible and so users can tell
+58 others and make public a bitcoin address without compromising its
+59 corresponding private key Moreover the number of valid private keys is so
+60 vast that it is extremely unlikely someone will compute a key-pair that is
+61 already in use and has funds The vast number of valid private keys makes it
+62 unfeasible that brute force could be used for that To be able
+63 to spend the bitcoins the owner must know the corresponding private key and
+64 digitally sign the transaction The network verifies the signature using the
+65 public key 5
+66 If the private key is lost the bitcoin network will not recognize any other
+67 evidence of ownership the coins are then unusable and effectively lost
+68 For example in 2013 one user claimed to have lost 7500 bitcoins worth $75
+69 million at the time when he accidentally discarded a hard drive containing
+70 his private key A backup of his key(s)
